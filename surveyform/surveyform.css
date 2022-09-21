@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+  background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: -2.8px;
+}
+
+.container {
+  margin: auto;
+  width: 720px;
+}
+
+.header {
+  text-align: center;
+  color: white;
+  line-height: 1.2;
+  padding-top: 50px;
+}
+
+#description {
+  font-style: italic;
+  font-size: 1.125rem;
+}
+
+h1,
+p {
+  margin-top: 0px;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+#survey-form {
+  background-color: rgba(27, 27, 50, 0.8);
+  padding: 40px;
+  margin-top: 27px;
+  border-radius: 0.3rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.controlstyle {
+  width: 100%;
+  height: 36px;
+  border-radius: 0.5rem;
+  padding-left: 10px;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.name-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 2px;
+}
+
+p {
+  color: white;
+  font-size: 1.125rem;
+}
+
+
+select {
+  width: 102%;
+  height: 38px;
+  border-radius: 0.4rem;
+  padding-left: 6px;
+  color: #495057;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #37af65;
+  margin-top: 25px;
+  color:white;
+  border: none;
+}
+
+#comment {
+  min-height: 100px;
+  width: 96%;
+  padding: 0.625rem;
+}
+.Radio-but{
+  margin-right: 9px;
+  min-height: 1.20rem;
+  min-width: 1.25rem;
+}
+.checkbox-but{
+  min-height: 1.25rem;
+    min-width: 1.25rem;
+    margin-right: 0.625rem;
+}
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.optional{
+  margin-left: 0.25rem;
+    font-size: 0.9rem;
+    color: #e4e4e4;
+}
+.controlstyle:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+select:focus 
+{
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.apply{
+  margin-left: 0.25rem;
+  font-size: 0.9rem;
+  color: #e4e4e4;
+}
