@@ -1,0 +1,113 @@
+#title{
+    text-align: center;
+    color: rgb(62, 181, 62);
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+body{
+    font-family: sans-serif;
+}
+.image {
+    padding-left: 360px;
+    padding-right: 300px;
+}
+h3{
+    padding-left: 450px;
+    color: rgb(62, 181, 62);
+    font-size: 12px;
+}
+.picture{
+    width: 100px;
+    padding-bottom: 20px;
+    padding-left: 350px;
+}
+.photo{
+    display: flex;
+}
+.appstore{
+    width: 150px;
+    padding-left: 390px;
+}
+.playstore{
+    width: 150px;
+
+}
+.divider{
+    margin-top: 60px;
+    padding-left: 200px;
+}
+h2{
+    color: rgb(62, 181, 62);
+    margin-top: 30px;
+    font-size: 20px;
+    padding-left: 230px;
+}
+.grey{
+    margin-bottom: 29px;
+    padding-left: 230px;
+}
+
+.section{
+    margin-left: 23rem;
+    margin-right: 22rem;
+}
+.option{
+    margin-left: 15rem;
+    margin-right: 12rem;
+    margin-top: -24px;
+}
+.style{
+    text-align: center;
+    padding-right: 110px;
+}
+.input{
+    text-align: center;
+    padding-right: 160px;
+}
+.icon{
+    padding-left: 300px;
+    display: flex;
+    margin-top: 20px;
+}
+.email{
+    padding-left: 20px;
+}
+.phone{
+    padding-left: 20px;
+    width: 50px;
+    height: 70px;
+}
+.number{
+    padding-left: 30px;
+    padding-top: 7px;
+}
+.apple{
+padding-top: 150px;
+padding-left: 320px;
+color: gray;
+font-size: 15px;
+}
+.team{
+    padding-top: 50px;
+}
+.section2{
+    margin: 0;
+}
+.address{
+    padding-left: 320px;
+    color: gray;
+    font-size: 14px;
+    margin-top: 25px;
+}
+h4{
+    padding-left: 320px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.section3{
+    margin: 0;
+}
+.scan{
+    padding-left: 320px;
+    color:gray;
+}
