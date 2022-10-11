@@ -1,0 +1,122 @@
+.head{
+    color: rgb(62, 181, 62);
+    font-size: 25px;
+}
+#title{
+    margin-bottom: 20px;
+}
+body{
+    font-family: sans-serif;
+}
+h3{
+    color: rgb(62, 181, 62);
+    font-size: 12px;
+    margin-left: 420px;
+}
+.picture{
+    width: 100px;
+    padding-bottom: 20px;
+}
+.photo{
+    display: flex;
+    justify-content: space-between;
+}
+.divider{
+    margin-top: 60px;
+   width:98%;
+}
+h2{
+    color: rgb(62, 181, 62);
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 25px;
+}
+.grey{
+    margin: auto;
+    display: block;
+    width:90%;
+}
+
+.option{
+    font-size: 17px;
+    margin-left: 28px;
+}
+.input{
+    font-size: 17px;
+    margin-left: 60px;
+}
+.icon{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.phone{
+    width: 50px;
+    height: 70px;
+}
+.number{
+    padding-top: 7px;
+    margin-left: 20px;
+}
+.apple{
+padding-top: 150px;
+color: gray;
+font-size: 14px;
+}
+.team{
+    padding-top: 50px;
+    margin-left: 40px;
+}
+.section2{
+    margin: 0;
+}
+.address{
+    color: gray;
+    font-size: 13px;
+    margin-top: 25px;
+}
+h4{
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.section3{
+    margin: 0;
+}
+.scan{
+    color:gray;
+    font-size: 13px;
+}
+.text{
+    color:rgb(62, 181, 62);
+}
+a{
+    color:rgb(62, 181, 62);
+}
+.main{
+    margin:auto;
+    width:100%;
+   max-width: 600px;
+}
+
+.line{
+    margin-top: 15px;
+    margin-left: 18px;
+}
+.app{
+    padding-top: 45px;
+    font-size: 17px;
+}
+.appstore{
+    width: 110px;
+    margin-left: 130px
+}
+.playstore{
+    width: 110px;
+}
+.margin{
+margin-right: 40px;
+}
+.click{
+    margin-left: 60px;
+}
