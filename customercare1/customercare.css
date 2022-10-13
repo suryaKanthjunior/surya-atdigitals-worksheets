@@ -1,6 +1,7 @@
 .head{
     color: rgb(62, 181, 62);
     font-size: 25px;
+    width: 100%;
 }
 #title{
     margin-bottom: 20px;
@@ -11,15 +12,14 @@ body{
 h3{
     color: rgb(62, 181, 62);
     font-size: 12px;
-    margin-left: 420px;
 }
 .picture{
     width: 100px;
-    padding-bottom: 20px;
 }
 .photo{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .divider{
     margin-top: 60px;
@@ -29,7 +29,8 @@ h2{
     color: rgb(62, 181, 62);
     margin-top: 30px;
     font-size: 20px;
-    margin-left: 25px;
+    margin-left: 5%;
+    margin-bottom: 6px;
 }
 .grey{
     margin: auto;
@@ -39,24 +40,25 @@ h2{
 
 .option{
     font-size: 17px;
-    margin-left: 28px;
+    margin-left: 5%;
+    margin-top: 9px;
 }
 .input{
     font-size: 17px;
-    margin-left: 60px;
+    text-align: center;
 }
 .icon{
     display: flex;
     margin-top: 20px;
-    margin-left: 80px;
+    margin-left: 15%;
+    align-items: flex-start;
 }
 .phone{
-    width: 50px;
-    height: 70px;
+    width: 60px;
 }
 .number{
     padding-top: 7px;
-    margin-left: 20px;
+    margin-left: 5%;
 }
 .apple{
 padding-top: 150px;
@@ -65,7 +67,7 @@ font-size: 14px;
 }
 .team{
     padding-top: 50px;
-    margin-left: 40px;
+    margin-left: 17%;
 }
 .section2{
     margin: 0;
@@ -89,6 +91,7 @@ h4{
 }
 .text{
     color:rgb(62, 181, 62);
+    font-family: verdana,sans-serif;
 }
 a{
     color:rgb(62, 181, 62);
@@ -101,7 +104,7 @@ a{
 
 .line{
     margin-top: 15px;
-    margin-left: 18px;
+    margin-left: 4%;
 }
 .app{
     padding-top: 45px;
@@ -109,14 +112,31 @@ a{
 }
 .appstore{
     width: 110px;
-    margin-left: 130px
+    padding-right: 1px;
 }
 .playstore{
     width: 110px;
-}
-.margin{
-margin-right: 40px;
+    padding-left: 1px;
 }
 .click{
-    margin-left: 60px;
+    text-align: center;
+}
+.last{
+    text-align: center;
+}
+.end{
+    text-align: center;
+}
+.green{
+    color:rgb(62, 181, 62);
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+}
+.service{
+    font-family: 'Patua One', cursive;
+    color:rgb(62, 181, 62);
+    font-size: 21px;
+}
+.image{
+    width:100%;
 }
