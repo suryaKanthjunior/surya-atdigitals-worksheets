@@ -1,0 +1,92 @@
+.head{
+   padding-right: 180px;
+    line-height: 32.68px;
+    margin-bottom: 30px;
+}
+.form{
+    text-align: center;
+    font-family: Roboto;
+    width: 375px;
+    margin-right: 170px;
+    height: 340px;
+    
+}
+#email{
+    width:303px;
+    height: 28px;
+    display: flex;
+    margin-top: 8px;
+    margin-left: 37px;
+    border-radius: 4px;
+   border: Solid rgba(112, 144, 176, 0.4);
+    
+}
+#password{
+    width:303px;
+    height: 28px;
+    display: flex;
+    margin-top: 8px;
+    margin-left: 37px;
+    border-radius: 4px;
+    border: Solid rgba(112, 144, 176, 0.4);
+}
+
+.word{
+    font-size: 14px;
+    margin-right: 240px;
+}
+.mobile{
+    font-size: 14px;
+    margin-right: 140px;
+}
+.number{
+    margin-top: 18px;
+}
+.checkbox{
+    margin-top: 18px;
+    display: flex;
+    margin-left: 33px;
+}
+.remember{
+    padding-left: 10px;
+    font-size: 14px;
+}
+body{
+    margin-left: 550px;
+    margin-top: 200px;
+   
+
+}
+button{
+    margin-top: 10px;
+    width:315px;
+    height: 38px;
+    margin-left: 11px;
+    background: #00508F;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+}
+img{
+    width:200px;
+    margin-bottom: 20px;
+}
+::placeholder {
+    padding-left: 5px;
+    font-family: Roboto;
+  }
+  a:hover {
+  text-decoration: underline;
+  text-decoration-color: #A968FF;
+  text-decoration-thickness: 2px;
+ 
+}
+:hover::placeholder{
+text-decoration: underline;
+text-decoration-color: #A968FF;
+text-decoration-thickness: 2px;
+
+}
+
