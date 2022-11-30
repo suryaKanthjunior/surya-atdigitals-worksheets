@@ -1,0 +1,109 @@
+.first {
+  width: 97%;
+  height: 28px;
+  background: #00508f;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 7px 11px;
+  border-radius: 3px;
+}
+
+.h1 {
+  color: white;
+  padding: 4px 6px;
+  font-size: 14px;
+  margin-top: 1px;
+  font-weight: 400;
+}
+
+input {
+  border: none;
+}
+
+::placeholder {
+  padding-left: 18px;
+}
+.third {
+  padding: 20px;
+  display: flex;
+}
+
+.fourth {
+  padding: 15px 19px;
+  display: flex;
+}
+
+.fifth {
+  padding: 20px;
+}
+
+.sixth {
+  width: 34%;
+}
+.VerticalAlignTopIcon {
+  margin-right: 10px;
+}
+.text {
+  padding-left: 30px;
+
+  padding-top: 2px;
+  color: darkgray;
+}
+.line {
+  padding-left: 110px;
+  padding-top: 3px;
+}
+
+.two {
+  padding-left: 30px;
+  color: darkgray;
+  padding-top: 2px;
+}
+.one {
+  padding-top: 3px;
+}
+.next {
+  padding-left: 34px;
+  color: #fe4d4d;
+  padding-top: 4px;
+}
+.three {
+  padding-top: 5px;
+}
+.status {
+  padding-left: 119px;
+  padding-top: 6px;
+}
+
+.option {
+  margin-left: 17px;
+  width: 110px;
+  height: 30px;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: rgba(112, 144, 176, 0.4);
+  margin-top: 2px;
+}
+.box {
+  border: 1px solid;
+  border-style: solid;
+  border-color: rgba(112, 144, 176, 0.4);
+  border-width: thin;
+  width: 715px;
+  height: 520px;
+  background: #f3f3f3;
+}
+header {
+  padding: 30px 19px;
+  padding-bottom: 10px;
+}
+p {
+  padding: 6px 5px;
+  margin: 0;
+  font-size: 14px;
+}
+.ten {
+  display: flex;
+  justify-content: flex-end;
+}
