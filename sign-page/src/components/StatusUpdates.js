@@ -4,7 +4,6 @@ import { Button, Select, MenuItem } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import InsertDriveFileIcon from "@mui/icons-material/InsertDriveFile";
 
-
 const StatusUpdates = () => {
   return (
     <div className={classes.box}>
@@ -14,7 +13,7 @@ const StatusUpdates = () => {
       </div>
       <div className={classes.third}>
         <label className={classes.one}>Order Number</label>
-        <Typography className={classes.two}>123456</Typography>
+        <Typography className={classes.two}>12345678</Typography>
         <label className={classes.line}>Open Date</label>
         <Typography className={classes.text}>29-01-2022</Typography>
       </div>
@@ -59,21 +58,33 @@ const StatusUpdates = () => {
         593f18a6...jpeg
       </Button>
       <header>Revision Notes</header>
-      <div style={{
-       width: "630px",
-       height: "105px",
-       border: "1px solid",
-       marginLeft: "22px",
-       borderColor: "#7090B0"
-      }}>
+      <div
+        style={{
+          width: "630px",
+          height: "105px",
+          border: "1px solid",
+          marginLeft: "22px",
+          borderColor: "#7090B0",
+        }}
+      >
         <p>
-            This is what I would like Stewie to look like but in a sitting position. With his arms crossed and this look on his face. Then it will be done! Please, check the image uploded in the software.
+          This is what I would like Stewie to look like but in a sitting
+          position. With his arms crossed and this look on his face. Then it
+          will be done! Please, check the image uploded in the software.
         </p>
       </div>
       <div className={classes.ten}>
         <div>
           <Button
-            style={{ padding: "9px 31px", right: "20px", width: "auto", borderRadius: "6px", top: "17px", color: "rgba(20, 24, 31, 0.8)", fontSize: "16px", }}
+            style={{
+              padding: "9px 31px",
+              right: "20px",
+              width: "auto",
+              borderRadius: "6px",
+              top: "27px",
+              color: "rgba(20, 24, 31, 0.8)",
+              fontSize: "16px",
+            }}
             variant="contained"
             disabled
           >
@@ -82,13 +93,21 @@ const StatusUpdates = () => {
         </div>
         <div>
           <Button
-            style={{ padding: "8px 31px", right: "11px", background: "#004474", width: "auto", borderRadius: "6px", top: "18px", fontSize: "16px" }}
+            style={{
+              padding: "8px 31px",
+              right: "11px",
+              background: "#004474",
+              width: "auto",
+              borderRadius: "6px",
+              top: "27px",
+              fontSize: "16px",
+            }}
             variant="contained"
           >
             UPDATE
           </Button>
         </div>
-    </div>
+      </div>
     </div>
   );
 };

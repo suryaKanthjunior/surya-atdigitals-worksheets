@@ -1,7 +1,6 @@
-
 import React from "react";
 import App from "../App.css";
-import logo from '../images/logo.png'
+import logo from "../images/logo.png";
 import { useState } from "react";
 
 const SignIn = () => {
@@ -26,14 +25,13 @@ const SignIn = () => {
   };
 
   return (
+    <div>
     <div className="form">
       <img src={logo}></img>
       <form onSubmit={submitHandler}>
         <div className="total">
           <div className="head">
-            <header>
               <h3>Admin Log in</h3>
-            </header>
           </div>
           <div className="mail">
             <label className="mobile" htmlFor="email">
@@ -74,6 +72,7 @@ const SignIn = () => {
           <button type="submit">LOG IN</button>
         </div>
       </form>
+    </div>
     </div>
   );
 };

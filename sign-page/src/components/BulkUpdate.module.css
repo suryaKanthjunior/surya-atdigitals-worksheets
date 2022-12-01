@@ -30,8 +30,9 @@ input {
 }
 
 .fourth {
-  padding: 0px 19px;
+  padding: 2px 19px;
   display: flex;
+  margin-bottom: 22px;
 }
 
 .fifth {
@@ -47,8 +48,8 @@ input {
 .text {
   padding-left: 30px;
 
-  padding-top: 3px;
-  color: rgba(38, 43, 48, 0.8);
+  padding-top: 2px;
+  color: darkgray;
 }
 .line {
   padding-left: 110px;
@@ -57,23 +58,22 @@ input {
 
 .two {
   padding-left: 30px;
-  color: rgba(38, 43, 48, 0.8);
-  padding-top: 3px;
+  color: darkgray;
+  padding-top: 2px;
 }
 .one {
   padding-top: 3px;
 }
 .next {
   padding-left: 34px;
-  color: #fe4d4d;
+  color: #00508f;
   padding-top: 4px;
 }
 .three {
   padding-top: 5px;
 }
 .status {
-  padding-left: 121px;
-  margin-top: 6px;
+  padding-left: 19px;
 }
 
 .option {
@@ -90,20 +90,23 @@ input {
   border-style: solid;
   border-color: rgba(112, 144, 176, 0.4);
   border-width: thin;
-  width: 715px;
-  height: 496px;
+  width: 700px;
+  height: 385px;
   background: #f3f3f3;
 }
-header {
-  padding: 30px 19px;
-  padding-bottom: 10px;
-}
-p {
-  padding: 6px 5px;
-  margin: 0;
-  font-size: 14px;
-}
+
 .ten {
   display: flex;
   justify-content: flex-end;
+}
+.eight {
+  width: 19%;
+}
+.nine {
+  width: 17%;
+}
+.order {
+  color: rgba(38, 43, 48, 0.8);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
 }

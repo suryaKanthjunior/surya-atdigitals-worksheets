@@ -4,6 +4,8 @@
 }
 .form {
   text-align: center;
+  margin: auto;
+  width: 560px;
 }
 h3 {
   font-weight: 600;
@@ -27,8 +29,10 @@ h3 {
   padding-left: 7px;
 }
 body {
-  display: flex;
-  height: 100vh;
+  /* display: flex;
+  height: 100vh; */
+  /* width: 560px;
+  margin: auto; */
 }
 button {
   margin-top: 21px;
@@ -44,6 +48,7 @@ button {
 img {
   width: 170px;
   margin-bottom: 20px;
+  margin-top: 30px;
 }
 ::placeholder {
   font-family: "Open Sans", sans-serif;
@@ -52,7 +57,7 @@ img {
 
 .total {
   border-style: none;
-  padding: 20px 260px 16px 37px;
+  padding: 20px 294px 16px 37px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 8px;
   background-image: linear-gradient(#e4e4e4 0%, #f3f3f3 0%);
@@ -77,3 +82,6 @@ img {
 .input {
   width: 18px;
 }
+/* .app {
+  margin: auto;
+} */

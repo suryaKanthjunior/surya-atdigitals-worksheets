@@ -1,7 +1,7 @@
 .first {
   width: 97%;
   height: 28px;
-  background: #00508F;
+  background: #00508f;
   display: flex;
   justify-content: space-between;
   color: white;
@@ -46,9 +46,9 @@ input {
 }
 .text {
   padding-left: 30px;
- 
+
   padding-top: 2px;
-  color: darkgray;
+  color: rgba(38, 43, 48, 0.8);
 }
 .line {
   padding-left: 110px;
@@ -57,7 +57,7 @@ input {
 
 .two {
   padding-left: 30px;
-  color: darkgray;
+  color: rgba(38, 43, 48, 0.8);
   padding-top: 2px;
 }
 .one {
@@ -65,7 +65,7 @@ input {
 }
 .next {
   padding-left: 34px;
-  color: #00508F;
+  color: #00508f;
   padding-top: 4px;
 }
 .three {
@@ -91,19 +91,17 @@ input {
   border-color: rgba(112, 144, 176, 0.4);
   border-width: thin;
   width: 700px;
-  height:405px;
-  background: #F3F3F3;
-  
+  height: 385px;
+  background: #f3f3f3;
 }
 
-.ten{
+.ten {
   display: flex;
-    justify-content: end;
+  justify-content: flex-end;
 }
-.eight{
-  width:19%;
-  
+.eight {
+  width: 19%;
 }
-.nine{
-  width:17%;
+.nine {
+  width: 17%;
 }

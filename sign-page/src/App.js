@@ -5,14 +5,16 @@ import BulkUpdate from "./components/BulkUpdate";
 import SignIn from "./components/SignIn";
 
 const App = () => {
-return <div>
+return (
+<div>
     <Routes>
     <Route path="StatusUpdate" element={<StatusUpdate />} />
     <Route path="StatusUpdates" element={<StatusUpdates />} />
     <Route path="BulkUpdate" element={<BulkUpdate />} />
     <Route path="SignIn" element={<SignIn />} />
     </Routes>
-</div>
+    </div>
+)
 }
 
 export default App;
