@@ -3,6 +3,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import { Button, Select, MenuItem } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import InsertDriveFileIcon from "@mui/icons-material/InsertDriveFile";
+import Dropdown from "./Dropdown";
 
 const StatusUpdates = () => {
   return (
@@ -21,23 +22,7 @@ const StatusUpdates = () => {
         <label className={classes.three}>Current Status</label>
         <Typography className={classes.next}>Pending</Typography>
         <label className={classes.status}>Change Status to</label>
-        <Select
-          style={{
-            borderColor: "rgba(112, 144, 176, 0.4)",
-            width: "123px",
-            height: "32px",
-            borderRadius: "7px",
-            left: "12px",
-          }}
-          labelId="demo-simple-select-helper-label"
-          id="demo-simple-select-helper"
-          // value={age}
-          // // label="Age"
-          // onChange={handleChange}
-        >
-          <MenuItem value={0}>Revision(s)</MenuItem>
-          <MenuItem value={1}>Closed</MenuItem>
-        </Select>
+        <Dropdown />
       </div>
       <div className={classes.fifth}>
         <label>Illustration</label>

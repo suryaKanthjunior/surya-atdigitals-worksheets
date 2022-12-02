@@ -3,8 +3,22 @@ import CloseIcon from "@mui/icons-material/Close";
 import { Button, Select, MenuItem } from "@mui/material";
 import VerticalAlignTopIcon from "@mui/icons-material/VerticalAlignTop";
 import Typography from "@mui/material/Typography";
+import Dropdown from "./Dropdown";
+import { useState } from "react";
 
 const StatusUpdate = () => {
+  const [enteredPending, setEnteredPending] = useState();
+
+  const pendingChangeHandler = (event) => {
+    setEnteredPending(event.target.value);
+    console.log(event.target.value);
+  };
+
+  const submitHandler = (event) => {
+    event.preventDefault();
+    console.log(enteredPending);
+  };
+
   return (
     <div className={classes.box}>
       <div className={classes.first}>
@@ -21,23 +35,7 @@ const StatusUpdate = () => {
         <label className={classes.three}>Current Status</label>
         <Typography className={classes.next}>Open</Typography>
         <label className={classes.status}>Change Status to</label>
-        <Select
-          style={{
-            borderColor: "rgba(112, 144, 176, 0.4)",
-            width: "123px",
-            height: "32px",
-            borderRadius: "7px",
-            left: "12px",
-          }}
-          labelId="demo-simple-select-helper-label"
-          id="demo-simple-select-helper"
-          // value={age}
-          // // label="Age"
-          // onChange={handleChange}
-        >
-          <MenuItem value={0}>Pending</MenuItem>
-          <MenuItem value={1}>Closed</MenuItem>
-        </Select>
+        <Dropdown onChange={pendingChangeHandler} />
       </div>
       <div className={classes.fifth}>
         <label>Illustration</label>
@@ -88,6 +86,7 @@ const StatusUpdate = () => {
               fontSize: "16px",
             }}
             variant="contained"
+            onClick={submitHandler}
           >
             UPDATE
           </Button>

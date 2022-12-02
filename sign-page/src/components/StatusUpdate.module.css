@@ -21,9 +21,9 @@ input {
   border: none;
 }
 
-::placeholder {
+/* ::placeholder {
   padding-left: 18px;
-}
+} */
 .third {
   padding: 20px;
   display: flex;
@@ -72,7 +72,7 @@ input {
   padding-top: 5px;
 }
 .status {
-  padding-left: 119px;
+  padding-left: 140px;
   padding-top: 6px;
 }
 

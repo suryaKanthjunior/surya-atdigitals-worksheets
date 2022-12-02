@@ -21,9 +21,9 @@ input {
   border: none;
 }
 
-::placeholder {
+/* ::placeholder {
   padding-left: 18px;
-}
+} */
 .third {
   padding: 20px;
   display: flex;
