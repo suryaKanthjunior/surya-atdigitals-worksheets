@@ -4,8 +4,31 @@ import { Button, Select, MenuItem } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import InsertDriveFileIcon from "@mui/icons-material/InsertDriveFile";
 import Dropdown from "./Dropdown";
+import { useState } from "react";
 
 const StatusUpdates = () => {
+  const [enteredRevision, setEnteredRevision] = useState();
+
+  const revisionChangeHandler = (event) => {
+    setEnteredRevision(event.target.value);
+    console.log(event.target.value);
+  };
+
+  const submitHandler = (event) => {
+    event.preventDefault();
+    console.log(enteredRevision);
+  };
+
+  
+  const Options= [{
+    value: "Revision(s)",
+    label: "Revision(s)"
+  },
+{
+  value: "Closed",
+  label: "Closed"
+}];
+
   return (
     <div className={classes.box}>
       <div className={classes.first}>
@@ -22,7 +45,7 @@ const StatusUpdates = () => {
         <label className={classes.three}>Current Status</label>
         <Typography className={classes.next}>Pending</Typography>
         <label className={classes.status}>Change Status to</label>
-        <Dropdown />
+        <Dropdown onChange={revisionChangeHandler} Options={Options}  />
       </div>
       <div className={classes.fifth}>
         <label>Illustration</label>
@@ -88,6 +111,7 @@ const StatusUpdates = () => {
               fontSize: "16px",
             }}
             variant="contained"
+            onClick={submitHandler}
           >
             UPDATE
           </Button>

@@ -3,8 +3,28 @@ import CloseIcon from "@mui/icons-material/Close";
 import { Button, Select, MenuItem } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import Dropdown from "./Dropdown";
+import { useState } from "react";
 
 const BulkUpdate = () => {
+  const [enteredPending, setEnteredPending] = useState();
+
+  const pendingChangeHandler = (event) => {
+    setEnteredPending(event.target.value);
+    console.log(event.target.value);
+  };
+
+  const submitHandler = (event) => {
+    event.preventDefault();
+    console.log(enteredPending);
+  };
+  const Options= [{
+    value: "Pending",
+    label: "Pending"
+  },
+{
+  value: "Closed",
+  label: "Closed"
+}];
   return (
     <div className={classes.box}>
       <div className={classes.first}>
@@ -24,7 +44,7 @@ const BulkUpdate = () => {
       </div>
       <div>
         <label className={classes.status}>Change Status to</label>
-       <Dropdown />
+       <Dropdown onChange={pendingChangeHandler} Options={Options}/>
       </div>
       <div className={classes.ten}>
         <div>
@@ -49,13 +69,14 @@ const BulkUpdate = () => {
             style={{
               padding: "8px 31px",
               right: "11px",
-              background: "#00508f",
+              background: "#004474",
               width: "auto",
               borderRadius: "6px",
               top: "126px",
               fontSize: "16px",
             }}
             variant="contained"
+            onClick={submitHandler}
           >
             UPDATE
           </Button>

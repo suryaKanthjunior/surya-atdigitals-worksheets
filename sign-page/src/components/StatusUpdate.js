@@ -19,6 +19,16 @@ const StatusUpdate = () => {
     console.log(enteredPending);
   };
 
+  const Options= [{
+    value: "Pending",
+    label: "Pending"
+  },
+{
+  value: "Closed",
+  label: "Closed"
+}];
+
+
   return (
     <div className={classes.box}>
       <div className={classes.first}>
@@ -35,7 +45,7 @@ const StatusUpdate = () => {
         <label className={classes.three}>Current Status</label>
         <Typography className={classes.next}>Open</Typography>
         <label className={classes.status}>Change Status to</label>
-        <Dropdown onChange={pendingChangeHandler} />
+        <Dropdown onChange={pendingChangeHandler} Options={Options}/>
       </div>
       <div className={classes.fifth}>
         <label>Illustration</label>
@@ -79,7 +89,7 @@ const StatusUpdate = () => {
             style={{
               padding: "8px 31px",
               right: "11px",
-              background: "#00508f",
+              background: "#004474",
               width: "auto",
               borderRadius: "6px",
               bottom: "96px",

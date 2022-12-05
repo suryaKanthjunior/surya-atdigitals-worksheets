@@ -1,33 +1,7 @@
 import { Select, MenuItem } from "@mui/material";
 
-const Dropdown = ({ onChange, enteredPending }) => {
-    const StatusUpdate =[ {
-        id: 1,
-        value: 'Pending'
-    },{
-        id: 2,
-        value: 'Closed'
-    }];
-
-
-const StatusUpdates =[{
-    id: 1,
-    value: 'Revision(s)'
-}, {
-   id: 2,
-   value: 'Closed'
-
-}];
-
-const BulkUpdate =[{
-    id: 1,
-    value: 'Pending'
-}, {
-    id: 2,
-    value: 'Closed'
-}];
-
-
+const Dropdown = ({ onChange, enteredPending, Options, label, value}) => {
+  
   return (
     <Select
       style={{
@@ -41,13 +15,13 @@ const BulkUpdate =[{
       id="demo-simple-select-helper"
       onChange={onChange}
       value={enteredPending}
-      // value={age}
-      // // label="Age"
-      // onChange={handleChange}
     >
-      <MenuItem value="pending">Pending</MenuItem>
-      <MenuItem value="Closed">Closed</MenuItem>
+      {Options.map((Option) => (
+      <MenuItem value={Option.value}>{Option.label}</MenuItem>
+    ))}
+     
     </Select>
+
   );
 };
 
